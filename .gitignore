@@ -1,0 +1,4 @@
+# sert a éviter de mettre de fichier inutiles 
+# voir dangereux sur git hup (ou autre serveur)
+# VSCode 
+.vscode/
