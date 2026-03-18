@@ -9,3 +9,5 @@ var_dump($entier);
 var_dump($decimal);
 var_dump($booleen);
 
+
+

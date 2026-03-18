@@ -1,15 +1,6 @@
 <?php
-  $date =  date("F j, Y, g:i a");
+// Générer la table de multiplication de 10
+for ($i = 1; $i <= 12; $i++) {
+   echo "10 x $i = " . (10 * $i). "\n";
+}
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ma page - <?= date("H:i") ?></title>
-</head>
-<body>
-    <h1>Date : <?= date("F j, Y") ?></h1>
-  <p>Il est <?= date("g:i a") ?></p>
-</body>
-</html>
