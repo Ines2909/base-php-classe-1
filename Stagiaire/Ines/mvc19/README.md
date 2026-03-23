@@ -29,3 +29,31 @@ Création des dossiers important du site pour le MVC (Model View Controller)
 - `view` Dossier contenant les vues (templates **Backend**)
 - `controller` Dossier qui gère le lien entre la `view` et les `model` (Entre **Backend** et  **Middle-end**)
 - `datas` - nos fichiers de préparation du travail
+
+#### .gitkeep
+
+Mettez-y des `.gitkeep` dans chaque dossier et faites des commit.
+
+#### Création du config.php
+
+**AVANT** la création de `Stagiair/Ines/mvc19/config.php`, ouvrez `.gitignore` et mettez-y :
+
+```bash
+# Stagiair/Ines/mvc19/.gitignore
+
+# On protège nos variables et constantes dangereuses
+# du fichier config.php
+config.php 
+```
+# __DIR__ constante magique qui donnera 
+# le chemin absolu vers la racine du projet 
+const ROOT_PATH = __DIR__;
+
+créez le fichier `.config.php` à la racine du projet. Il est protégé grâce au `.gitconfig`.
+
+### Phase 3
+
+#### Cr&ation du controller frontal
+
+Le front controller, nommé `public/index.php`, est le seul fichier `php` qui sera accessible à un utilisateur externe
+
