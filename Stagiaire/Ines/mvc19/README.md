@@ -16,10 +16,16 @@
 
 #### Ensuite
 
-- Création du `.gitignore` vide (**!Important**)
-
 - Ajout de l'upstream (pour le `pull request` final): `git remote add upstream KEY@SSH`
-
-
+- Création du `.gitignore` vide (**!Important**)
 - Dossiers vide ? `.gitkeep`
 - Informer sur le projet ? `README.md`
+
+### Phase 2
+
+Création des dossiers important du site pour le MVC (Model View Controller)
+- `public` Dossier accessible à tous (**Frontend**)
+- `model` Il gère l'accès aux données (**Backend**)
+- `view` Dossier contenant les vues (templates **Backend**)
+- `controller` Dossier qui gère le lien entre la `view` et les `model` (Entre **Backend** et  **Middle-end**)
+- `datas` - nos fichiers de préparation du travail
